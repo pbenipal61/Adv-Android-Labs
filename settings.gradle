@@ -1,0 +1,2 @@
+rootProject.name='Adv-Android-Labs'
+include ':app'
