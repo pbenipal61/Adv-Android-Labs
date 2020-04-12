@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.postmaninteractive.adv_android_labs.Lab2.Lab2_1;
 import com.postmaninteractive.adv_android_labs.Lab2.Lab2_2;
 import com.postmaninteractive.adv_android_labs.Lab2.Lab2_4;
+import com.postmaninteractive.adv_android_labs.Lab3.Lab31;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Lab2_4.class);
+                startActivity(intent);
+            }
+        });
+
+        Button lab31 = (Button) findViewById(R.id.lab_3_1);
+        lab31.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Lab31.class);
                 startActivity(intent);
             }
         });

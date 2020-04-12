@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+    <item android:id="@+id/red"
+        android:title="Red"
+        />
+    <item android:id="@+id/green"
+        android:title="Green"
+        />
+    <item android:id="@+id/blue"
+        android:title="Blue"
+        />
+    <item android:id="@+id/yellow"
+        android:title="Yellow"
+        />
+
+</menu>
