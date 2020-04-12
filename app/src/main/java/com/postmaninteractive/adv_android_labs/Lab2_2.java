@@ -95,6 +95,6 @@ public class Lab2_2 extends AppCompatActivity {
         verticalLayout.addView(listView);
 
         setContentView(verticalLayout);
-    }
+        }
     }
 
