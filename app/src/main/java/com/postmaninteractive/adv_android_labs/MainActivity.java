@@ -11,6 +11,7 @@ import com.postmaninteractive.adv_android_labs.Lab2.Lab2_2;
 import com.postmaninteractive.adv_android_labs.Lab2.Lab2_4;
 import com.postmaninteractive.adv_android_labs.Lab3.Lab31;
 import com.postmaninteractive.adv_android_labs.Lab3.Lab3_2;
+import com.postmaninteractive.adv_android_labs.Lab3.Lab3_3;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,6 +62,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Lab3_2.class);
+                startActivity(intent);
+            }
+        });
+        Button lab33 = (Button) findViewById(R.id.lab_3_3);
+        lab33.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Lab3_3.class);
                 startActivity(intent);
             }
         });
