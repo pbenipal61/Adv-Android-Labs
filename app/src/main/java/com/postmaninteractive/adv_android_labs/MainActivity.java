@@ -13,6 +13,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        setContentView(R.layout.activity_main);
+
+        Button lab21 = (Button) findViewById(R.id.lab_2_1);
+        lab21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Lab2_1.class);
+                startActivity(intent);
+            }
+        });
+
         Button lab22 = (Button) findViewById(R.id.lab_2_2);
         lab22.setOnClickListener(new View.OnClickListener() {
             @Override

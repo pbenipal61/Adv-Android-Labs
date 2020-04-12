@@ -17,11 +17,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/lab_2_2"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lab 2.2" />
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/lab_2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 2.1" />
+                <Button
+                    android:id="@+id/lab_2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 2.2" />
+            </LinearLayout>
         </RelativeLayout>
     </RelativeLayout>
 
