@@ -5,7 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
+
+import com.postmaninteractive.adv_android_labs.Lab2.Lab2_1;
+import com.postmaninteractive.adv_android_labs.Lab2.Lab2_2;
+import com.postmaninteractive.adv_android_labs.Lab2.Lab2_4;
 
 public class MainActivity extends AppCompatActivity {
 

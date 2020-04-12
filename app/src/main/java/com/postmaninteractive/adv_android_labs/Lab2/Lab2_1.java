@@ -1,4 +1,4 @@
-package com.postmaninteractive.adv_android_labs;
+package com.postmaninteractive.adv_android_labs.Lab2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

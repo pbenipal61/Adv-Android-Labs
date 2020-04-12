@@ -1,4 +1,4 @@
-package com.postmaninteractive.adv_android_labs;
+package com.postmaninteractive.adv_android_labs.Lab2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.postmaninteractive.adv_android_labs.R;
 
 public class Lab2_4 extends AppCompatActivity {
 
