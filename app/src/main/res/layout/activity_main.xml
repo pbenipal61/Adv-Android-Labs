@@ -32,6 +32,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lab 2.2" />
+                <Button
+                    android:id="@+id/lab_2_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 2.4" />
             </LinearLayout>
         </RelativeLayout>
     </RelativeLayout>
