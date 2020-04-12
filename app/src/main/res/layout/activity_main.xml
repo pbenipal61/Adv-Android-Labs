@@ -26,7 +26,7 @@
                     android:id="@+id/lab_2_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lab 2.1" />
+                    android:text="Lab 2.1 and Lab 2.3" />
                 <Button
                     android:id="@+id/lab_2_2"
                     android:layout_width="wrap_content"
