@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button lab34 = (Button) findViewById(R.id.lab_3_4);
-        lab33.setOnClickListener(new View.OnClickListener() {
+        lab34.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Lab3_4.class);
