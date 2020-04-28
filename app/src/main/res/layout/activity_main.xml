@@ -37,6 +37,26 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lab 2.4" />
+                <Button
+                    android:id="@+id/lab_3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 3.1" />
+                <Button
+                    android:id="@+id/lab_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 3.2" />
+                <Button
+                    android:id="@+id/lab_3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 3.3" />
+                <Button
+                    android:id="@+id/lab_3_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 3.4" />
             </LinearLayout>
         </RelativeLayout>
     </RelativeLayout>
