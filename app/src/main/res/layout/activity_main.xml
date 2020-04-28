@@ -5,21 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
-
-
         <RelativeLayout
             android:layout_centerInParent="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
                 android:orientation="vertical">
 
                 <Button
@@ -57,8 +52,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lab 3.4" />
+                <Button
+                    android:id="@+id/lab_4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 4.1" />
+                <Button
+                    android:id="@+id/lab_4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lab 4.2" />
             </LinearLayout>
-        </RelativeLayout>
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
