@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Lab4.Lab4_2"></activity>
+        <activity android:name=".Lab1.Lab1_4"></activity>
+        <activity android:name=".Lab1.Lab1_2" />
+        <activity android:name=".Lab4.Lab4_2" />
         <activity android:name=".Lab4.Lab4_1" />
         <activity android:name=".Lab3.TimerCountdownActivity" />
         <activity android:name=".Lab3.Lab3_4" />

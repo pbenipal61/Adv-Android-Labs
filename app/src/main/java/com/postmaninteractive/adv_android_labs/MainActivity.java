@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.postmaninteractive.adv_android_labs.Lab1.Lab1_2;
+import com.postmaninteractive.adv_android_labs.Lab1.Lab1_4;
 import com.postmaninteractive.adv_android_labs.Lab2.Lab2_1;
 import com.postmaninteractive.adv_android_labs.Lab2.Lab2_2;
 import com.postmaninteractive.adv_android_labs.Lab2.Lab2_4;
@@ -23,6 +25,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+
+        Button lab12 = (Button) findViewById(R.id.lab_1_2);
+        lab12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Lab1_2.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button lab14 = (Button) findViewById(R.id.lab_1_4);
+        lab14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Lab1_4.class);
+                startActivity(intent);
+            }
+        });
 
         Button lab21 = (Button) findViewById(R.id.lab_2_1);
         lab21.setOnClickListener(new View.OnClickListener() {
